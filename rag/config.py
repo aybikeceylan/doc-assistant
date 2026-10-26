@@ -11,7 +11,7 @@ INDEX_PATH = ROOT / "index.json"
 load_dotenv(ROOT / ".env")
 
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "gemini-embedding-001")
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gemini-2.5-flash")
+CHAT_MODEL = os.getenv("CHAT_MODEL", "gemini-3.8-flash")
 
 
 def get_client() -> genai.Client:
